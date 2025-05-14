@@ -1,0 +1,8 @@
+app_name = "magazine_app"
+app_title = "Magazine App"
+app_publisher = "Your Name"
+app_description = "An app to manage magazines"
+app_icon = "octicon octicon-book"
+app_color = "grey"
+app_email = "email@example.com"
+app_license = "MIT"

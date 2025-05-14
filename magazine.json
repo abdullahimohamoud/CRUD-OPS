@@ -1,0 +1,50 @@
+{
+  "doctype": "DocType",
+  "name": "Magazine",
+  "module": "Magazine App",
+  "custom": 1,
+  "fields": [
+    {
+      "fieldname": "title",
+      "label": "Title",
+      "fieldtype": "Data",
+      "reqd": 1
+    },
+    {
+      "fieldname": "description",
+      "label": "Description",
+      "fieldtype": "Text",
+      "reqd": 1
+    },
+    {
+      "fieldname": "publish_date",
+      "label": "Publish Date",
+      "fieldtype": "Date",
+      "reqd": 1
+    },
+    {
+      "fieldname": "cover_image",
+      "label": "Cover Image",
+      "fieldtype": "Attach Image"
+    },
+    {
+      "fieldname": "content",
+      "label": "Content",
+      "fieldtype": "Text Editor"
+    },
+    {
+      "fieldname": "status",
+      "label": "Status",
+      "fieldtype": "Select",
+      "options": "Draft\nPublished\nArchived",
+      "default": "Draft"
+    }
+  ],
+  "permissions": [
+    {
+      "role": "All",
+      "permlevel": 0,
+      "read": 1
+    }
+  ]
+}
